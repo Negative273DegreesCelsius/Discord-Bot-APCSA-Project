@@ -6,7 +6,7 @@ class Test:
     self.client = client
   
   @commands.command()
-  async def ping(self, ctx):
+  async def test(self, ctx):
     
 def setup(client):
     client.add_cog(Test(client))
