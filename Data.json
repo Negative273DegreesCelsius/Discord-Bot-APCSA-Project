@@ -1,0 +1,178 @@
+{
+    "Albania": {
+        "capital": ["tirana"],
+        "alternative_names": []
+    },
+    "Andorra": {
+        "capital": ["andorra la vella"],
+        "alternative_names": []
+    },
+    "Austria": {
+        "capital": ["vienna"],
+        "alternative_names": []
+    },
+    "Belarus": {
+        "capital": ["minsk"],
+        "alternative_names": []
+    },
+    "Belgium": {
+        "capital": ["brussels"],
+        "alternative_names": []
+    },
+    "Bosnia and Herzegovina": {
+        "capital": ["sarajevo"],
+        "alternative_names": []
+    },
+    "Bulgaria": {
+        "capital": ["sofia"],
+        "alternative_names": []
+    },
+    "Croatia": {
+        "capital": ["zagreb"],
+        "alternative_names": []
+    },
+    "Czechia": {
+        "capital": ["prague"],
+        "alternative_names": ["czech republic"]
+    },
+    "Denmark": {
+        "capital": ["copenhagen"],
+        "alternative_names": []
+    },
+    "Estonia": {
+        "capital": ["tallinn"],
+        "alternative_names": []
+    },
+    "Finland": {
+        "capital": ["helsinki"],
+        "alternative_names": []
+    },
+    "France": {
+        "capital": ["paris"],
+        "alternative_names": []
+    },
+    "Germany": {
+        "capital": ["berlin"],
+        "alternative_names": []
+    },
+    "Greece": {
+        "capital": ["athens"],
+        "alternative_names": []
+    },
+    "Hungary": {
+        "capital": ["budapest"],
+        "alternative_names": []
+    },
+    "Iceland": {
+        "capital": ["reykjavik"],
+        "alternative_names": []
+    },
+    "Ireland": {
+        "capital": ["dublin"],
+        "alternative_names": []
+    },
+    "Italy": {
+        "capital": ["rome"],
+        "alternative_names": []
+    },
+    "Latvia": {
+        "capital": ["riga"],
+        "alternative_names": []
+    },
+    "Liechtenstein": {
+        "capital": ["vaduz"],
+        "alternative_names": []
+    },
+    "Lithuania": {
+        "capital": ["vilnius"],
+        "alternative_names": []
+    },
+    "Luxembourg": {
+        "capital": ["luxembourg"],
+        "alternative_names": []
+    },
+    "Malta": {
+        "capital": ["valletta"],
+        "alternative_names": []
+    },
+    "Moldova": {
+        "capital": ["chisinau"],
+        "alternative_names": []
+    },
+    "Monaco": {
+        "capital": ["monaco"],
+        "alternative_names": []
+    },
+    "Montenegro": {
+        "capital": ["podgorica"],
+        "alternative_names": []
+    },
+    "Netherlands": {
+        "capital": ["amsterdam"],
+        "alternative_names": ["the netherlands"]
+    },
+    "North Macedonia": {
+        "capital": ["skopje"],
+        "alternative_names": ["macedonia", "northern macedonia"]
+    },
+    "Norway": {
+        "capital": ["oslo"],
+        "alternative_names": []
+    },
+    "Poland": {
+        "capital": ["warsaw"],
+        "alternative_names": []
+    },
+    "Portugal": {
+        "capital": ["lisbon"],
+        "alternative_names": []
+    },
+    "Romania": {
+        "capital": ["bucharest"],
+        "alternative_names": []
+    },
+    "Russia": {
+        "capital": ["moscow"],
+        "alternative_names": []
+    },
+    "San Marino": {
+        "capital": ["san marino"],
+        "alternative_names": []
+    },
+    "Serbia": {
+        "capital": ["belgrade"],
+        "alternative_names": []
+    },
+    "Slovakia": {
+        "capital": ["bratislava"],
+        "alternative_names": []
+    },
+    "Slovenia": {
+        "capital": ["ljubljana"],
+        "alternative_names": []
+    },
+    "Spain": {
+        "capital": ["madrid"],
+        "alternative_names": []
+    },
+    "Sweden": {
+        "capital": ["stockholm"],
+        "alternative_names": []
+    },
+    "Switzerland": {
+        "capital": ["bern"],
+        "alternative_names": []
+    },
+    "Ukraine": {
+        "capital": ["kiev", "kyiv"],
+        "alternative_names": []
+    },
+    "United Kingdom": {
+        "capital": ["london"],
+        "alternative_names": ["u.k."]
+    },
+    "Vatican City": {
+        "capital": ["vatican city", "none", "no capital"],
+        "alternative_names": ["vatican", "holy see"]
+    }
+}
