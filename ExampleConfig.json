@@ -1,3 +1,4 @@
 {
-    "token": "<Paste bot token here>"
+    "token": "<Paste bot token here>",
+    "authors": ["<Insert bot creator(s)'s usernames>"]
 }
