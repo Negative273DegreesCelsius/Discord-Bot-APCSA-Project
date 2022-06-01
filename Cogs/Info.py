@@ -42,8 +42,8 @@ class Info(commands.Cog):
             inline = False
         )
         embed.add_field(
-            name = "Street view API used: ",
-            value = "Google Maps API\nhttps://developers.google.com/maps",
+            name = "Image API used: ",
+            value = "Shutterstock API\nhttps://www.shutterstock.com/developers",
             inline = False
         )
         await ctx.send(embed = embed)
