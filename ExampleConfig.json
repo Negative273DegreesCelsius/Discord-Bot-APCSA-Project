@@ -1,5 +1,4 @@
 {
     "token": "<Paste bot token>",
-    "authors": ["<Insert bot creator(s)'s usernames>"],
-    "google_api_token": "<Insert Google Maps API Token>"
+    "authors": ["<Insert bot creator(s)'s usernames>"]
 }
