@@ -16,6 +16,23 @@ client = commands.Bot(command_prefix = ">", intents = intents)
 bot_info = get_json("Config.json")
 
 @client.event
+async def on_command_error(ctx, error):
+    if isinstance(error, CommandNotFound):
+        em = discord.Embed(
+            title = "Error!",
+            description = "An error has been found.",
+            color = discord.Colour.red()
+        )
+        em.add_field(
+            name = "Command not found",
+            value = "The command you used does not exist. Please use apush.help to see a list of commands",
+            inline = False
+        )
+        await ctx.reply(embed = em)
+        return
+    raise error
+
+@client.event
 async def on_ready():
     # automatically load all cogs on startup
     for filename in os.listdir('./Cogs'):
