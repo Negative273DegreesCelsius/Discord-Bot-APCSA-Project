@@ -1,5 +1,5 @@
 # Discord-Bot-APCSA-Project
-This is a program made for a class project. It is heavily inspired by [Geoguessr](https://www.geoguessr.com/) and uses the [Google Maps API](https://developers.google.com/maps) to generate static street view images.
+This is a program made for a class project. It is heavily inspired by [Geoguessr](https://www.geoguessr.com/) and uses the [Shutterstock API](https://www.shutterstock.com/developers) to generate static street view images.
 
 ## Libraries Used:
 This project uses [Discord.py](https://github.com/Rapptz/discord.py) to communicate with Discord's API. 
