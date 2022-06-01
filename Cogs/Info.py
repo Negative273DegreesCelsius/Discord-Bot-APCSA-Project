@@ -33,7 +33,7 @@ class Info(commands.Cog):
         )
         embed.add_field(
             name = "Programmed by these users:",
-            value = get_authors(),
+            value = await get_authors(),
             inline = False
         )
         embed.add_field(
