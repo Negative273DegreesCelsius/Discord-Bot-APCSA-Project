@@ -2,11 +2,11 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import CommandNotFound
 
-import json
+import sys, os
 
-import os
+path = sys.path[0]
+path = path[:path.rfind("\\")]
 
-from ... import Helper
 from Helper import *
 
 intents = discord.Intents.default()
@@ -20,18 +20,18 @@ async def on_ready():
     # automatically load all cogs on startup
     for filename in os.listdir('./Cogs'):
         if filename.endswith('.py'):
-            await client.load_extension(f'Cogs.{filename[:-3]}')
+            client.load_extension(f'Cogs.{filename[:-3]}')
     
     print(f"Successfully logged in as {client.user}")
 
 @client.command()
 async def load(ctx, extension):
-    await client.load_extension(f'Cogs.{extension}')
+    client.load_extension(f'Cogs.{extension}')
     await ctx.send(f'{extension} is now loaded')
 
 @client.command()
 async def unload(ctx, extension):
-    await client.unload_extension(f'Cogs.{extension}')
+    client.unload_extension(f'Cogs.{extension}')
     await ctx.send(f'{extension} is now unloaded')
 
 token = bot_info["token"]
