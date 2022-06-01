@@ -1,7 +1,13 @@
 import discord
 from discord.ext import commands
 
-from ... import Helper
+import sys
+
+# get path to import Helper.py
+path = sys.path[0]
+path = path[:path.rfind("\\")]
+
+sys.path.insert(1, path)
 
 from Helper import *
 
@@ -14,7 +20,7 @@ async def get_authors():
     authors += author_list[len(author_list) - 1]
     return authors
 
-class Info:
+class Info(commands.Cog):
 
     def __init__(self, client):
         self.client = client
@@ -31,8 +37,13 @@ class Info:
             inline = False
         )
         embed.add_field(
+            name = "Inspired by Geoguessr",
+            value = "https://www.geoguessr.com/",
+            inline = False
+        )
+        embed.add_field(
             name = "Street view API used: ",
-            value = "Mapillary API\nhttps://www.mapillary.com/developer",
+            value = "Google Maps API\nhttps://developers.google.com/maps",
             inline = False
         )
         await ctx.send(embed = embed)
