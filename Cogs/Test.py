@@ -31,7 +31,6 @@ class Test(commands.Cog):
         ImgObj = ShutterstockImg(search_query, 5)
         img_url_list = ImgObj.get_url_list()
         embed_list = []
-        print(img_url_list)
         page = 0
         for url in img_url_list:
             em = discord.Embed(
@@ -54,6 +53,11 @@ class Test(commands.Cog):
         
         while True:
             try:
+                '''
+                The following code snippet with handling pending tasks
+                was inspired by Achxy_'s answer on StackOverflow
+                https://stackoverflow.com/a/70661168
+                '''
                 pending_tasks = [
                     self.client.loop.create_task(self.client.wait_for('message', check = check_user)),
                     self.client.loop.create_task(self.client.wait_for('reaction_add', check = check_reaction))
