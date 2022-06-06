@@ -25,7 +25,7 @@ async def on_command_error(ctx, error):
         )
         em.add_field(
             name = "Command not found",
-            value = "The command you used does not exist. Please use apush.help to see a list of commands",
+            value = "The command you used does not exist. Please use >help to see a list of commands",
             inline = False
         )
         await ctx.reply(embed = em)
